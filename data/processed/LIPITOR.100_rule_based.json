@@ -1,0 +1,25 @@
+{
+  "original_text": "Severe skin rash to my upper thighs .\nThe itch and pain is unbearable to the point you cant sleep or bear to wear your trousers.",
+  "ground_truth": {
+    "drugs": [],
+    "adverse_events": [
+      "pain",
+      "skin rash",
+      "cant sleep",
+      "itch"
+    ],
+    "symptoms": []
+  },
+  "extracted_entities": {
+    "drugs": [],
+    "adverse_events": [
+      "pain",
+      "rash",
+      "skin rash",
+      "itch",
+      "cant sleep"
+    ],
+    "symptoms": []
+  },
+  "accuracy": 100.0
+}

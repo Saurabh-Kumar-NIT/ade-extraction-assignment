@@ -1,0 +1,31 @@
+{
+  "original_text": "In last 6 month, calf of left leg began to burn Nothing will stop it.\nNow, severe cramping.\nAlso have tinnitis, headaches, cannot get to sleep on my own,\nJust had surgery on my knee for torn maniscus, waiting to have shoulder surgery on rotator cuff, arthritis.\nI do not know if its the LIPITOR that is doing it.\nMy doctor only increased my dosage to 60 from 40 about 3 months ago.\ncan we quit this med cold turkey?\nI have had a Myocardial Infarction in '98, have 2 stents implants, and need the med to keep my chol at least within reason, although obviously its NOT doing its job, or med would not have been increased.",
+  "processed_text": "Can we quit medication cold turkey?",
+  "entities": {
+    "drugs": [],
+    "adverse_events": [],
+    "symptoms": []
+  },
+  "standardized_entities": {
+    "drugs": [],
+    "adverse_events": [],
+    "symptoms": []
+  },
+  "verification": {
+    "is_valid": false,
+    "format_check": {
+      "passed": true,
+      "error": ""
+    },
+    "completeness_check": {
+      "passed": false,
+      "error": "Completeness verification failed. Missing entities: Drugs: lipitor; Adverse events: cannot get to sleep on my own, headaches, severe cramping, tinnitis, calf of left leg began to burn; Symptoms: arthritis, myocardial infarction, torn maniscus"
+    },
+    "semantic_check": {
+      "passed": true,
+      "error": ""
+    }
+  },
+  "attempts": 3,
+  "success": false
+}

@@ -1,0 +1,443 @@
+
+2025-04-20 19:35:30,553 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 19:35:30,553 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 19:35:32,738 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 19:35:32,738 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 19:35:32,738 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 19:35:34,375 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 19:35:37,553 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:41:45,143 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 19:41:45,143 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 19:41:45,997 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 19:41:45,997 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 19:41:45,997 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 19:41:47,610 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 19:41:48,724 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:43:37,748 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 19:43:37,748 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 19:43:38,640 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 19:43:38,640 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 19:43:38,640 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 19:43:40,294 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 19:43:41,400 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:45:16,943 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 19:45:16,943 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 19:45:17,831 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 19:45:17,831 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 19:45:17,831 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 19:45:19,565 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 19:45:20,853 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:50:26,384 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 19:50:26,384 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 19:50:27,170 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 19:50:27,170 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 19:50:27,170 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 19:50:28,738 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 19:50:29,910 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:50:29,910 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 19:50:32,354 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 19:50:52,102 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:50:52,119 - src.verification.verifier - INFO - Loading sentence transformer model: all-MiniLM-L6-v2
+2025-04-20 19:50:52,140 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-20 19:50:52,140 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-20 19:50:55,688 - src.verification.verifier - INFO - Sentence transformer model loaded successfully
+2025-04-20 19:50:55,884 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:51:03,704 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:51:03,721 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 19:51:11,463 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:51:11,484 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 19:51:11,484 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 19:51:16,192 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:51:30,888 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:56:17,075 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 19:56:17,075 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 19:56:18,345 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 19:56:18,345 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 19:56:18,345 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 19:56:20,166 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 19:56:23,381 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:56:23,382 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 19:56:26,096 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 19:56:45,563 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:56:45,579 - src.verification.verifier - INFO - Loading sentence transformer model: all-MiniLM-L6-v2
+2025-04-20 19:56:45,615 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-20 19:56:45,615 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-20 19:56:49,054 - src.verification.verifier - INFO - Sentence transformer model loaded successfully
+2025-04-20 19:56:49,263 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:56:58,186 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:56:58,200 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 19:57:06,303 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:57:06,308 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 19:57:06,308 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 19:57:09,770 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:57:20,542 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:57:20,582 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:57:29,079 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:57:29,105 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 19:57:38,865 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:57:38,890 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 19:57:38,895 - __main__ - INFO - Processing document ID: ARTHROTEC.100
+2025-04-20 19:57:42,622 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:57:50,139 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:57:50,329 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:58:00,693 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:58:00,733 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 19:58:10,731 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:58:10,763 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 19:58:10,763 - __main__ - INFO - Processing document ID: ARTHROTEC.101
+2025-04-20 19:58:15,529 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:58:27,126 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:58:27,194 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:58:38,636 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:58:38,677 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 19:58:49,927 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:58:49,958 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 19:58:49,959 - __main__ - INFO - Processing document ID: ARTHROTEC.102
+2025-04-20 19:58:51,759 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:58:56,489 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:58:56,530 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:59:11,074 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:59:11,116 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 19:59:23,114 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:59:23,159 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 19:59:23,161 - __main__ - INFO - Processing document ID: ARTHROTEC.103
+2025-04-20 19:59:26,015 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 19:59:37,280 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:59:37,516 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 19:59:48,015 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 19:59:48,056 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:00:00,066 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:00,104 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:00:00,107 - __main__ - INFO - Processing document ID: ARTHROTEC.104
+2025-04-20 20:00:04,467 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:00:12,882 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:12,923 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:00:21,375 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:21,404 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:00:29,577 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:29,611 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:00:29,615 - __main__ - INFO - Processing document ID: ARTHROTEC.105
+2025-04-20 20:00:33,072 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:00:39,812 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:39,848 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:00:48,243 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:48,275 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:00:56,637 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:00:56,673 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:00:56,673 - __main__ - INFO - Processing document ID: ARTHROTEC.106
+2025-04-20 20:00:57,782 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:01:02,410 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:01:02,447 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:01:13,477 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:01:13,498 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:01:24,564 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:01:24,596 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:01:24,607 - __main__ - INFO - Processing document ID: ARTHROTEC.107
+2025-04-20 20:01:26,304 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:01:33,389 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:01:33,433 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:01:41,860 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:01:41,882 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:01:50,840 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:01:50,881 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:01:50,883 - __main__ - INFO - Processing document ID: ARTHROTEC.108
+2025-04-20 20:01:53,834 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:02:02,487 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:02,532 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:02:11,507 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:11,538 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:02:20,421 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:20,466 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:02:20,468 - __main__ - INFO - Processing document ID: ARTHROTEC.109
+2025-04-20 20:02:21,939 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:02:29,044 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:29,080 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:02:37,197 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:37,228 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:02:45,479 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:45,520 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:02:45,520 - __main__ - INFO - Processing document ID: ARTHROTEC.11
+2025-04-20 20:02:46,396 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:02:51,009 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:02:51,034 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:09:56,175 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 20:09:56,175 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 20:09:57,719 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 20:09:57,726 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 20:09:57,726 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 20:09:59,823 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 20:10:03,101 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:10:03,101 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 20:10:05,696 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 20:10:25,432 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:10:25,509 - src.verification.verifier - INFO - Loading sentence transformer model: all-MiniLM-L6-v2
+2025-04-20 20:10:25,558 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-04-20 20:10:25,559 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-04-20 20:10:29,432 - src.verification.verifier - INFO - Sentence transformer model loaded successfully
+2025-04-20 20:10:29,668 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:10:42,701 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:10:42,724 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:10:52,014 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:10:52,039 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:10:52,042 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 20:17:41,037 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 20:17:41,038 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 20:17:42,551 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 20:17:42,555 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 20:17:42,555 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 20:17:44,666 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 20:17:47,862 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:17:47,862 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 20:17:50,306 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 20:18:09,080 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:18:09,111 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:18:19,697 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:18:19,713 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:18:30,800 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:18:30,813 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:18:30,819 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 20:18:35,199 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:18:48,090 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:18:48,126 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:19:02,353 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:19:02,359 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:19:15,556 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:19:15,566 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:19:15,576 - __main__ - INFO - Processing document ID: ARTHROTEC.100
+2025-04-20 20:19:18,110 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:19:27,051 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:19:27,073 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:19:37,708 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:19:37,719 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:19:50,169 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:19:50,183 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:19:50,194 - __main__ - INFO - Processing document ID: ARTHROTEC.101
+2025-04-20 20:19:58,108 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:20:12,753 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:20:12,776 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:20:28,338 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:20:28,350 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:20:43,528 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:20:43,541 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:20:43,551 - __main__ - INFO - Processing document ID: ARTHROTEC.102
+2025-04-20 20:20:46,679 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:20:52,098 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:20:52,104 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:21:11,546 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:21:11,546 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:21:56,085 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 20:21:56,085 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 20:21:58,447 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 20:21:58,447 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 20:22:00,780 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 20:22:00,780 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 20:22:00,795 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 20:22:02,345 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 20:22:05,493 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:22:19,838 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:22:19,854 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:22:30,361 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:22:30,361 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:31:03,032 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 20:31:03,032 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 20:31:05,496 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 20:31:05,496 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 20:31:07,889 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 20:31:07,889 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 20:31:07,889 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 20:31:09,446 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 20:31:12,589 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:31:27,475 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:31:27,490 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:31:39,141 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:31:39,141 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:31:55,054 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:31:55,063 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:31:55,089 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 20:31:59,650 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:32:19,331 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:32:19,352 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:32:32,080 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:32:32,087 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:34:27,657 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 20:34:27,657 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 20:34:30,243 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 20:34:30,243 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 20:34:31,967 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 20:34:31,983 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 20:34:31,983 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 20:34:33,488 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 20:34:36,648 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:34:51,837 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:34:51,890 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:35:03,175 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:35:03,191 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:35:14,881 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:35:14,890 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:35:14,904 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 20:35:20,137 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:35:33,333 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:35:33,350 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:35:45,768 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:35:45,773 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:35:57,067 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:35:57,067 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:35:57,083 - __main__ - INFO - Processing document ID: ARTHROTEC.100
+2025-04-20 20:36:00,967 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:36:08,513 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:36:08,529 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:44:30,122 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 20:44:30,122 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 20:44:32,694 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 20:44:32,694 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 20:44:34,196 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 20:44:34,212 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 20:44:34,212 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 20:44:35,648 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 20:44:38,769 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:44:55,417 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:44:55,473 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:45:07,149 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:45:07,158 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:45:19,119 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:45:19,135 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:45:19,150 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 20:45:23,916 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:45:37,940 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:45:37,963 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 20:45:51,438 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:45:51,453 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 20:46:04,837 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:46:04,848 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 20:46:04,858 - __main__ - INFO - Processing document ID: ARTHROTEC.100
+2025-04-20 20:46:09,242 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 20:46:18,133 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 20:46:18,144 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:15:59,986 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 21:15:59,986 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 21:16:02,568 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 21:16:02,568 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 21:16:04,882 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 21:16:04,885 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 21:16:04,886 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 21:16:06,755 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 21:16:10,007 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:16:27,747 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:16:27,802 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:16:38,192 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:16:38,197 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:16:50,228 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:16:50,241 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:16:50,250 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 21:16:54,348 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:17:09,893 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:17:09,909 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:17:23,718 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:17:23,738 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:17:36,200 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:17:36,218 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:17:36,231 - __main__ - INFO - Processing document ID: ARTHROTEC.100
+2025-04-20 21:17:38,769 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:17:46,761 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:17:46,781 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:17:57,181 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:17:57,197 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:18:08,756 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:18:08,762 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:18:08,770 - __main__ - INFO - Processing document ID: ARTHROTEC.101
+2025-04-20 21:18:15,657 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:18:27,868 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:18:27,883 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:18:40,070 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:18:40,087 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:18:51,580 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:18:51,585 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:18:51,591 - __main__ - INFO - Processing document ID: ARTHROTEC.102
+2025-04-20 21:18:54,813 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:19:00,504 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:19:00,510 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:19:18,460 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:19:18,473 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:19:35,979 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:19:35,979 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:19:35,994 - __main__ - INFO - Processing document ID: ARTHROTEC.103
+2025-04-20 21:19:37,463 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:19:48,916 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:19:48,923 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:20:07,945 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:20:07,956 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:20:27,436 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:20:27,446 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:20:27,448 - __main__ - INFO - Processing document ID: ARTHROTEC.104
+2025-04-20 21:20:31,705 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:20:42,092 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:20:42,092 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:20:53,109 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:20:53,124 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:21:04,865 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:21:04,870 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:21:04,871 - __main__ - INFO - Processing document ID: ARTHROTEC.105
+2025-04-20 21:21:09,321 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:21:16,003 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:21:16,018 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:21:22,962 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:21:22,962 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:21:30,945 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:21:30,945 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:21:30,945 - __main__ - INFO - Processing document ID: ARTHROTEC.106
+2025-04-20 21:21:32,642 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:21:38,155 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:21:38,163 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:21:56,386 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:21:56,394 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:22:17,002 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:22:17,008 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:22:17,018 - __main__ - INFO - Processing document ID: ARTHROTEC.107
+2025-04-20 21:22:19,096 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:22:27,210 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:22:27,228 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:22:38,367 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:22:38,377 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:22:49,820 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:22:49,826 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:22:49,826 - __main__ - INFO - Processing document ID: ARTHROTEC.108
+2025-04-20 21:22:53,380 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:23:03,467 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:23:03,475 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:23:31,476 - __main__ - INFO - Launching ADE extraction workflow...
+2025-04-20 21:23:31,476 - src.models.entity_extractor - INFO - Loading entity extraction model: google/flan-t5-large
+2025-04-20 21:23:33,885 - src.models.entity_extractor - INFO - Entity extraction model loaded successfully
+2025-04-20 21:23:33,885 - __main__ - INFO - Loading documents (limit=None)
+2025-04-20 21:23:35,676 - src.utils.data_loader - INFO - Loaded 1250 documents from CADEC dataset
+2025-04-20 21:23:35,681 - __main__ - INFO - Processing document ID: ARTHROTEC.1
+2025-04-20 21:23:35,682 - src.utils.preprocessor - INFO - Loading abbreviation expansion model: google/flan-t5-base
+2025-04-20 21:23:37,217 - src.utils.preprocessor - INFO - Abbreviation expansion model loaded successfully
+2025-04-20 21:23:40,349 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:23:54,396 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:23:54,412 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:24:04,855 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:24:04,871 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:24:16,308 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:24:16,308 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:24:16,308 - __main__ - INFO - Processing document ID: ARTHROTEC.10
+2025-04-20 21:24:19,966 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:24:32,122 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:24:32,138 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:24:45,733 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:24:45,733 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:24:58,069 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:24:58,083 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:24:58,086 - __main__ - INFO - Processing document ID: ARTHROTEC.100
+2025-04-20 21:24:59,288 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:25:06,955 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:25:06,961 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:25:17,615 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:25:17,632 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3
+2025-04-20 21:25:27,906 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:25:27,910 - src.models.agentic_extractor - WARNING - Extraction failed after 3 attempts
+2025-04-20 21:25:27,910 - __main__ - INFO - Processing document ID: ARTHROTEC.101
+2025-04-20 21:25:31,392 - src.models.agentic_extractor - INFO - Performing initial entity extraction
+2025-04-20 21:25:42,685 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:25:42,699 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 2/3
+2025-04-20 21:25:57,537 - src.models.agentic_extractor - WARNING - No valid JSON found in output, using empty structure
+2025-04-20 21:25:57,565 - src.models.agentic_extractor - INFO - Verification failed. Retry attempt 3/3

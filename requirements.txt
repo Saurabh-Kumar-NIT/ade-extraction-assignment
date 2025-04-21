@@ -1,0 +1,11 @@
+langchain
+sentence-transformers
+rich
+torch
+pandas
+transformers
+tqdm
+jsonschema
+requests
+numpy
+python-dotenv

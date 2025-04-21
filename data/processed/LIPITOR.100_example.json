@@ -1,0 +1,31 @@
+{
+  "original_text": "Severe skin rash to my upper thighs .\nThe itch and pain is unbearable to the point you cant sleep or bear to wear your trousers.",
+  "processed_text": "rash to my upper thighs",
+  "entities": {
+    "drugs": [],
+    "adverse_events": [],
+    "symptoms": []
+  },
+  "standardized_entities": {
+    "drugs": [],
+    "adverse_events": [],
+    "symptoms": []
+  },
+  "verification": {
+    "is_valid": false,
+    "format_check": {
+      "passed": true,
+      "error": ""
+    },
+    "completeness_check": {
+      "passed": false,
+      "error": "Completeness verification failed. Missing entities: Adverse events: skin rash, cant sleep, itch, pain"
+    },
+    "semantic_check": {
+      "passed": true,
+      "error": ""
+    }
+  },
+  "attempts": 3,
+  "success": false
+}

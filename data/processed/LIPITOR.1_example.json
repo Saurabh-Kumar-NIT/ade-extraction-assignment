@@ -1,0 +1,31 @@
+{
+  "original_text": "Muscle pain, leg cramps, fatigue, irritable, pain in feet, neuropathy.\nI have stopped this medication a couple of times and my doctor keeps insisting I take it, rather then alternative medications.\nI'm getting off of this stuff after reading so many people are having similiar side-effects.\nDoctors need this information!.",
+  "processed_text": "I have stopped this medication a couple of times and my doctor keeps insisting I take it, rather than alternative medications. I'm getting off of this stuff after reading so many people are having similar side-effects.",
+  "entities": {
+    "drugs": [],
+    "adverse_events": [],
+    "symptoms": []
+  },
+  "standardized_entities": {
+    "drugs": [],
+    "adverse_events": [],
+    "symptoms": []
+  },
+  "verification": {
+    "is_valid": false,
+    "format_check": {
+      "passed": true,
+      "error": ""
+    },
+    "completeness_check": {
+      "passed": false,
+      "error": "Completeness verification failed. Missing entities: Adverse events: pain in feet, muscle pain, leg cramps, irritable, neuropathy, fatigue"
+    },
+    "semantic_check": {
+      "passed": true,
+      "error": ""
+    }
+  },
+  "attempts": 3,
+  "success": false
+}

@@ -1,0 +1,3 @@
+"""
+Main for ADE Extraction
+""" 

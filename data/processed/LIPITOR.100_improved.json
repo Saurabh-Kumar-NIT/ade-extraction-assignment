@@ -1,0 +1,73 @@
+{
+  "document_id": "LIPITOR.100",
+  "text": {
+    "original": "Severe skin rash to my upper thighs .\nThe itch and pain is unbearable to the point you cant sleep or bear to wear your trousers."
+  },
+  "extracted_entities": {
+    "drugs": [],
+    "adverse_events": [
+      "pain",
+      "rash",
+      "skin rash",
+      "itch",
+      "cant sleep"
+    ],
+    "symptoms": []
+  },
+  "standardized_entities": {
+    "drugs": [],
+    "adverse_events": [
+      {
+        "original": "pain",
+        "standardized": "myalgia",
+        "cui": "C0231528"
+      },
+      {
+        "original": "rash",
+        "standardized": "rash",
+        "cui": "C0015230"
+      },
+      {
+        "original": "skin rash",
+        "standardized": "rash",
+        "cui": "C0015230"
+      },
+      {
+        "original": "itch",
+        "standardized": "itch",
+        "cui": ""
+      },
+      {
+        "original": "cant sleep",
+        "standardized": "cant sleep",
+        "cui": ""
+      }
+    ],
+    "symptoms": []
+  },
+  "verification": {
+    "is_valid": false,
+    "format_check": {
+      "passed": true,
+      "error": ""
+    },
+    "completeness_check": {
+      "passed": true,
+      "error": ""
+    },
+    "semantic_check": {
+      "passed": false,
+      "error": "Semantic similarity verification failed. The following entities have low similarity to the text: 'pain' (similarity: 0.20); 'rash' (similarity: 0.60); 'skin rash' (similarity: 0.67); 'itch' (similarity: 0.40); 'cant sleep' (similarity: 0.19)"
+    }
+  },
+  "ground_truth": {
+    "drugs": [],
+    "adverse_events": [
+      "pain",
+      "itch",
+      "skin rash",
+      "cant sleep"
+    ],
+    "symptoms": []
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "document_id": "LIPITOR.1",
+  "text": {
+    "original": "Muscle pain, leg cramps, fatigue, irritable, pain in feet, neuropathy.\nI have stopped this medication a couple of times and my doctor keeps insisting I take it, rather then alternative medications.\nI'm getting off of this stuff after reading so many people are having similiar side-effects.\nDoctors need this information!."
+  },
+  "extracted_entities": {
+    "drugs": [
+      "medication"
+    ],
+    "adverse_events": [
+      "pain",
+      "muscle pain",
+      "fatigue",
+      "leg cramps",
+      "irritable",
+      "neuropathy",
+      "pain in feet"
+    ],
+    "symptoms": []
+  },
+  "standardized_entities": {
+    "drugs": [
+      {
+        "original": "medication",
+        "standardized": "medication",
+        "cui": ""
+      }
+    ],
+    "adverse_events": [
+      {
+        "original": "pain",
+        "standardized": "myalgia",
+        "cui": "C0231528"
+      },
+      {
+        "original": "muscle pain",
+        "standardized": "myalgia",
+        "cui": "C0231528"
+      },
+      {
+        "original": "fatigue",
+        "standardized": "fatigue",
+        "cui": "C0015672"
+      },
+      {
+        "original": "leg cramps",
+        "standardized": "leg cramps",
+        "cui": ""
+      },
+      {
+        "original": "irritable",
+        "standardized": "irritable",
+        "cui": ""
+      },
+      {
+        "original": "neuropathy",
+        "standardized": "neuropathy",
+        "cui": ""
+      },
+      {
+        "original": "pain in feet",
+        "standardized": "pain in feet",
+        "cui": ""
+      }
+    ],
+    "symptoms": []
+  },
+  "verification": {
+    "is_valid": false,
+    "format_check": {
+      "passed": true,
+      "error": ""
+    },
+    "completeness_check": {
+      "passed": true,
+      "error": ""
+    },
+    "semantic_check": {
+      "passed": false,
+      "error": "Semantic similarity verification failed. The following entities have low similarity to the text: 'medication' (similarity: 0.28); 'pain' (similarity: 0.26); 'muscle pain' (similarity: 0.41); 'fatigue' (similarity: 0.30); 'leg cramps' (similarity: 0.40); 'irritable' (similarity: 0.21); 'neuropathy' (similarity: 0.36); 'pain in feet' (similarity: 0.36)"
+    }
+  },
+  "ground_truth": {
+    "drugs": [],
+    "adverse_events": [
+      "irritable",
+      "neuropathy",
+      "fatigue",
+      "leg cramps",
+      "muscle pain",
+      "pain in feet"
+    ],
+    "symptoms": []
+  }
+}

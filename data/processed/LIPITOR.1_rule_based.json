@@ -1,0 +1,31 @@
+{
+  "original_text": "Muscle pain, leg cramps, fatigue, irritable, pain in feet, neuropathy.\nI have stopped this medication a couple of times and my doctor keeps insisting I take it, rather then alternative medications.\nI'm getting off of this stuff after reading so many people are having similiar side-effects.\nDoctors need this information!.",
+  "ground_truth": {
+    "drugs": [],
+    "adverse_events": [
+      "leg cramps",
+      "irritable",
+      "pain in feet",
+      "neuropathy",
+      "muscle pain",
+      "fatigue"
+    ],
+    "symptoms": []
+  },
+  "extracted_entities": {
+    "drugs": [
+      "medication"
+    ],
+    "adverse_events": [
+      "pain",
+      "muscle pain",
+      "fatigue",
+      "leg cramps",
+      "irritable",
+      "neuropathy",
+      "pain in feet"
+    ],
+    "symptoms": []
+  },
+  "accuracy": 100.0
+}
